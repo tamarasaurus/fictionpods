@@ -1,0 +1,22 @@
+{
+    "extends": "airbnb",
+    "env": {
+        "jquery": true,
+    },
+    "rules": {
+        "semi": [2, "never"],
+        "indent": ["error", 2],
+        "new-cap": 0,
+        "func-names": 0,
+        "no-multi-assign": 0,
+        "import/newline-after-import": 0,
+        "no-param-reassign": 0,
+        "no-new-require": 0,
+        "global-require": 0,
+        "no-underscore-dangle": 0,
+        "no-prototype-builtins": 0,
+        "space-before-function-paren": 0,
+        "prefer-arrow-callback": 0,
+        "prefer-template": 0
+    }
+}
