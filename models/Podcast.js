@@ -49,6 +49,11 @@ Podcast.add({
     type: Types.CloudinaryImages,
     initial: true,
   },
+  feed_url: {
+    type: Types.Url,
+    initial: true,
+    required: true,
+  },
 
   // Relationships
   links: {
@@ -66,6 +71,12 @@ Podcast.add({
   contributors: {
     type: Types.Relationship,
     ref: 'Contributor',
+    many: true,
+    initial: true,
+  },
+  tags: {
+    type: Types.Relationship,
+    ref: 'Tag',
     many: true,
     initial: true,
   },
